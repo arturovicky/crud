@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+h1 {
+    color: #e74c3c; /* Rojo agradable */
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input[type="date"],
+input[type="number"],
+input[type="text"],
+select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 5px 0 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+input[type="button"] {
+    background-color: #e74c3c; /* Rojo agradable */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 5px 0;
+}
+
+input[type="button"]:hover {
+    background-color: #c0392b; /* Rojo más oscuro */
+}
+
+.table-container {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    border-radius: 4px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #e74c3c; /* Rojo agradable */
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}

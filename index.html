@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="scripts.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>CRUD</title>
+</head>
+<body onload="mostrar()">
+    <select id="combobox">
+        
+    </select>
+
+    <br>
+
+    <div>
+        <label for="fecha_compra">Fecha de compra</label>
+        <input type="date" name="fecha_compra" id="fecha_compra">
+        <br>
+        <label for="no_serie">No.serie</label>
+        <input type="number" name="no_serie" id="no_serie" placeholder="0" maxlength="10">
+        <br>
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre" placeholder="INTRODUZCA EL NOMBRE">
+        <br>
+        <label for="modelo">Modelo</label>
+        <input type="text" name="modelo" id="modelo" placeholder="INTRODUZCA EL MODELO">
+        <br>
+        <label for="precio">Precio</label>
+        <input type="number" name="precio" id="precio" placeholder="INTRODUZCA EL PRECIO" >
+        <br>
+        <input type="button" value="INSERTAR" onclick="insertar()" id="insertar">
+        <input type="button" value="BORRAR TODO" onclick="borrar()">
+        <input type="button" value="BORRAR SELECCION" onclick="borrarSeleccion()">
+    </div>
+    <div id="tabla">
+
+    </div>
+</body>
+</html>
